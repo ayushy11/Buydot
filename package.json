@@ -1,0 +1,39 @@
+{
+  "name": "buydot",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "commit": "cz"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^1.1.1",
+    "@chakra-ui/react": "^1.7.3",
+    "@emotion/babel-plugin": "^11.7.1",
+    "@emotion/react": "^11.7.1",
+    "@emotion/styled": "^11.6.0",
+    "axios": "^0.24.0",
+    "babel-plugin-module-resolver": "^4.1.0",
+    "framer-motion": "^5.5.3",
+    "millify": "^4.0.0",
+    "next": "^12.0.7",
+    "nprogress": "^0.2.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-horizontal-scrolling-menu": "^2.7.0"
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "main": "index.js",
+  "repository": "git@github.com:ayushy11/Buydot.git",
+  "author": "AYUSH YADAV <ayushexx@gmail.com>",
+  "license": "MIT"
+}
