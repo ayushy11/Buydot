@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { Flex, Box, Text, Button } from "@chakra-ui/react";
-import Layout from "@/components/Layout";
-import { baseUrl, fetchApi } from "@/utils/fetchApi";
+import Layout from "../components/Layout";
+import { baseUrl, fetchApi } from "../utils/fetchApi";
 
-import Property from "../components/Property/Property"; 
+import Property from "../components/Property/Property";
 
 // import { motion, AnimatePresence } from "framer-motion";
 // import { css, useTheme } from "@emotion/react";
@@ -45,7 +45,7 @@ const Banner = ({
 
 export default function Home({ propertiesForSale, propertiesForRent }) {
   return (
-    <Layout title="Buydot">
+    <>
       <Banner
         purpose={"RENT A HOME"}
         title="Rental Homes for"
@@ -76,7 +76,7 @@ export default function Home({ propertiesForSale, propertiesForRent }) {
           <Property property={property} key={property.id} />
         ))}
       </Flex>
-    </Layout>
+    </>
   );
 }
 

@@ -1,15 +1,20 @@
 import React from "react";
-import HEAD from "next/head";
+import Head from "next/head";
+import { Box } from "@chakra-ui/react";
 
 const Layout = ({ title, children }) => {
   return (
-    <React.Fragment>
-      <HEAD>
+    <>
+      <Head>
         <title>{title}</title>
         <link rel="icon" href="/icon-file.png" />
-      </HEAD>
-      {children}
-    </React.Fragment>
+      </Head>
+      <Box>
+        <header>Navbar</header>
+        <main>{children}</main>
+        <footer>Footer</footer>
+      </Box>
+    </>
   );
 };
 
