@@ -15,13 +15,7 @@
     [
       "babel-plugin-module-resolver",
       {
-        "root": ["./"],
-        "alias": {
-          "@": "../",
-          "components": "./components",
-          "lib": "./lib",
-          "api": "./api"
-        }
+        "root": ["./"]
       }
     ]
   ]
