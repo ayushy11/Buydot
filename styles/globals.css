@@ -33,7 +33,7 @@ a:focus {
   cursor: pointer;
   text-decoration: none;
   color: hsl(0, 94%, 66%);
-  border-bottom: 2px solid hsl(0, 94%, 66%);
+  /* border-bottom: 2px solid hsl(0, 94%, 66%); */
   border-spacing: 10px;
 }
 
